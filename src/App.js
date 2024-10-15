@@ -16,13 +16,14 @@ function App() {
       <Navbar />
       <div className="App">
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/my-portfolio" element={<Home />} />
           <Route path="/skills" element={<Skills />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/experience" element={<Experience />} />
           <Route path="/certifications" element={<Certifications />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
+        
         <footer>
   <p>Designed and developed by Tamilarasan Dhayalan</p>
   <p>&copy; 2024 Tamilarasan D. All rights reserved.</p>

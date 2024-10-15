@@ -2,6 +2,7 @@
 import React from 'react';
 import './Home.css'; // Create this CSS file for styling
 import profilePic from '../assets/profile.jpg'; // Place your profile picture in src/assets
+import { Link } from 'react-router-dom'; // Import Link
 
 const Home = () => {
   return (
@@ -12,7 +13,7 @@ const Home = () => {
           <p>
             I'm a full-stack developer with a passion for building scalable web applications and working across the full stack.
           </p>
-          <a href="/Projects" className="cta-button">View My Work</a>
+          <Link to="/projects" className="cta-button">View My Work</Link>
         </div>
         <div className="intro-image">
           <img src={profilePic} alt="TAMILARASAN" />

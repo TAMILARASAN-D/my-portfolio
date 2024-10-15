@@ -33,6 +33,7 @@
   
   .navbar-links li a:hover,
   .navbar-links li a.active {
+    font-weight: bold;
     color: #3498db; /* Highlight color on hover and active */
   }
   

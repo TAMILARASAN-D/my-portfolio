@@ -12,7 +12,7 @@ const Home = () => {
           <p>
             I'm a full-stack developer with a passion for building scalable web applications and working across the full stack.
           </p>
-          <a href="/projects" className="cta-button">View My Work</a>
+          <a href="/Projects" className="cta-button">View My Work</a>
         </div>
         <div className="intro-image">
           <img src={profilePic} alt="TAMILARASAN" />

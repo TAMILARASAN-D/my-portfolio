@@ -4,26 +4,19 @@ import './Experience.css'; // Create this CSS file for styling
 
 const experiences = [
   {
-    role: 'Full Stack Developer',
-    company: 'Tech Company A',
-    duration: 'Jan 2022 - Present',
+    role: 'Assistant Professor, Department of Computer Applications',
+    company: 'Sri Venkateswara College of Engineering and Technology, Chittoor, Andhra Pradesh',
+    duration: 'August 2023 - August 2024',
     responsibilities: [
-      'Developed and maintained web applications using React and Node.js.',
-      'Collaborated with cross-functional teams to define and design new features.',
-      'Implemented RESTful APIs and integrated third-party services.',
+      
+      'Taught programming and software development subjects, including C, Machine Learning, Web Development, Android App Development, and Data Structures.',
+      'Mentored students in hands-on coding projects, fostering a deep understanding of software development, debugging, and optimization.',
+      'Guided students in building full-stack web applications and Android apps, aligning with industry best practices.',
+      'Integrated modern development tools and frameworks into teaching to ensure students were equipped with practical, job-ready skills.',
+      'Conducted research and collaborated on technical projects to stay current with emerging software trends.',
     ],
   },
-  {
-    role: 'Frontend Developer',
-    company: 'Startup B',
-    duration: 'Jun 2020 - Dec 2021',
-    responsibilities: [
-      'Built responsive user interfaces with React and Redux.',
-      'Optimized application for maximum speed and scalability.',
-      'Worked closely with designers to translate UI/UX designs into code.',
-    ],
-  },
-  // Add more experiences as needed
+  
 ];
 
 const Experience = () => {

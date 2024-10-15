@@ -2,6 +2,10 @@
 
 .skills-section {
     background-color: #ffffff;
+    padding: 2%;
+    overflow: scroll;
+    scroll-behavior:smooth;
+    height: 100%;
   }
   
   .skills-container {

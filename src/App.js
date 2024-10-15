@@ -8,6 +8,7 @@ import Projects from './pages/Projects';
 import Experience from './pages/Experience';
 import Certifications from './pages/Certifications';
 import Contact from './pages/Contact';
+import Footer from './components/Footer'; 
 import './App.css'; // Global styles
 
 function App() {
@@ -23,11 +24,7 @@ function App() {
           <Route path="/certifications" element={<Certifications />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
-        
-        <footer>
-  <p>Designed and developed by Tamilarasan Dhayalan</p>
-  <p>&copy; 2024 Tamilarasan D. All rights reserved.</p>
-</footer>
+        <Footer></Footer>
 
       </div>
     </Router>

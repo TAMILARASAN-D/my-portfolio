@@ -2,6 +2,10 @@
 
 .projects-section {
     background-color: #f9f9f9;
+    padding: 2%;
+    overflow: scroll;
+    scroll-behavior:smooth;
+    height: 100%;
   }
   
   .projects-container {
@@ -9,6 +13,7 @@
     flex-wrap: wrap;
     gap: 2rem;
     justify-content: center;
+
   }
   
   .project-card {

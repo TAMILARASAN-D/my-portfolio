@@ -2,6 +2,10 @@
 
 .experience-section {
     background-color: #ffffff;
+    padding: 2%;
+    overflow: scroll;
+    scroll-behavior:smooth;
+    height: 100%;
   }
   
   .experience-container {
@@ -39,4 +43,6 @@
     margin-left: 1.5rem;
     margin-top: 0.5rem;
   }
-  
+  @media (max-width: 768px) {
+
+  }

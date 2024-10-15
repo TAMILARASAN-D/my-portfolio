@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import './Navbar.css';
-import { FaBars, FaTimes } from 'react-icons/fa'; // Install react-icons
+import { FaBars, FaTimes } from 'react-icons/fa'; // Make sure you have installed react-icons
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -14,29 +14,52 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-        <NavLink to="/" className="logo">Tamil's</NavLink>
+        <NavLink to="/my-portfolio" className="logo">Tamil's</NavLink>
       </div>
       <div className="navbar-toggle" onClick={toggleMenu}>
         {isOpen ? <FaTimes /> : <FaBars />}
       </div>
       <ul className={`navbar-links ${isOpen ? 'active' : ''}`}>
-      <li>
-          <NavLink to="/projects" activeClassName="active" onClick={() => setIsOpen(false)}>Projects</NavLink>
+        <li>
+          <NavLink 
+            to="/projects" 
+            className={({ isActive }) => (isActive ? 'active' : '')} 
+            onClick={() => setIsOpen(false)}>
+            Projects
+          </NavLink>
         </li>
         <li>
-          <NavLink to="/skills" activeClassName="active" onClick={() => setIsOpen(false)}>Skills</NavLink>
+          <NavLink 
+            to="/skills" 
+            className={({ isActive }) => (isActive ? 'active' : '')} 
+            onClick={() => setIsOpen(false)}>
+            Skills
+          </NavLink>
         </li>
         <li>
-          <NavLink to="/certifications" activeClassName="active" onClick={() => setIsOpen(false)}>Certifications</NavLink>
+          <NavLink 
+            to="/certifications" 
+            className={({ isActive }) => (isActive ? 'active' : '')} 
+            onClick={() => setIsOpen(false)}>
+            Certifications
+          </NavLink>
         </li>
-        
         <li>
-          <NavLink to="/experience" activeClassName="active" onClick={() => setIsOpen(false)}>Experience</NavLink>
-        </li>
-        
+          <NavLink 
+            to="/experience" 
+            className={({ isActive }) => (isActive ? 'active' : '')} 
+            onClick={() => setIsOpen(false)}>
+            Experience
+          </NavLink>
+        </li>{/*
         <li>
-          <NavLink to="/contact" activeClassName="active" onClick={() => setIsOpen(false)}>Contact</NavLink>
-        </li>
+          <NavLink 
+            to="/contact" 
+            className={({ isActive }) => (isActive ? 'active' : '')} 
+            onClick={() => setIsOpen(false)}>
+            Contact
+          </NavLink>
+        </li>*/}
       </ul>
     </nav>
   );

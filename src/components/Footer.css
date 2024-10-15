@@ -1,0 +1,77 @@
+/* src/components/Footer.css */
+html, body {
+    height: 100%; /* Set full height for html and body */
+    margin: 0; /* Remove default margin */
+  }
+  
+  #root {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    min-height: 100vh; /* Minimum height of viewport */
+  }
+  
+  main {
+    flex: 1; /* Allow main content to grow and fill space */
+  }
+  
+  .footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px; /* Padding for footer */
+    width: 100%; /* Full width */
+    display: flex;
+    justify-content: space-between; /* Space between items */
+    align-items: center; /* Center items vertically */
+  }
+  
+  .footer-content {
+    display: flex; /* Flexbox for inner content */
+    justify-content: space-between; /* Space between contact and social links */
+    width: 100%; /* Full width */
+  }
+  
+  .contact-details-social {
+    display: flex; /* Flexbox for contact and social links */
+    align-items: center; /* Center items vertically */
+  }
+  
+  .contact-details {
+    margin-right: 20px; /* Space between contact details and social links */
+    text-align: left;
+    font-size: 0.9rem; /* Font size for contact */
+  }
+  
+  .social-links a {
+    color: white; /* Color for social links */
+    margin: 0 10px; /* Space between icons */
+    transition: transform 0.3s ease; /* Transition effect for hover */
+  }
+  
+  .social-links a:hover {
+    transform: scale(1.1); /* Scale effect on hover */
+  }
+  
+  .footer-credits {
+    text-align: center; /* Align credits to the right */
+    font-size: 0.9rem; /* Font size for credits */
+    padding: 10px;
+    padding-right: 100px;
+  }
+  
+  /* Responsive styling for smaller screens */
+  @media (max-width: 768px) {
+    .footer-content {
+      flex-direction: column; /* Stack vertically */
+      align-items: center; /* Center align */
+    }
+  
+    .contact-details-social {
+      margin-bottom: 10px; /* Space below contact details */
+    }
+  
+    .footer-credits {
+      text-align: center; /* Center align credits */
+      padding: 5px;
+    }
+  }
+  

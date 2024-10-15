@@ -4,18 +4,59 @@ import './Certifications.css'; // Create this CSS file for styling
 
 const certifications = [
   {
-    title: 'Certified JavaScript Developer',
-    issuer: 'Tech Institute',
-    date: 'March 2021',
-    credential: 'https://example.com/certification-link',
+    title: 'Build a Face Recognition Application using Python',
+    issuer: 'GUVI Geek Networks, IITM Research Park',
+    date: 'April 2021',
+    credential: 'https://www.guvi.in/verify-certificate?id=XTDq6719B6162px5o6',
   },
   {
-    title: 'AWS Certified Solutions Architect',
-    issuer: 'Amazon Web Services',
-    date: 'July 2022',
-    credential: 'https://example.com/certification-link',
+    title: 'Python for Data Science',
+    issuer: 'IBM',
+    date: 'March 2023',
+    credential: 'https://www.credly.com/badges/0194d6b0-c7b4-478c-a606-2db70559cb13/linked_in_profile',
   },
-  // Add more certifications as needed
+  {
+    title: 'MongoDB',
+    issuer: 'GUVI Geek Networks, IITM Research Park',
+    date: 'May 2022',
+    credential: 'https://www.guvi.in/verify-certificate?id=S4052vH2C6Uu3e85d1',
+  },
+  {
+    title: 'SQL',
+    issuer: 'Sololearn',
+    date: 'March 2020',
+    credential: 'https://www.sololearn.com/certificates/CT-QOQ278SY',
+  },
+  {
+    title: 'HTML and CSS',
+    issuer: 'GUVI Geek Networks, IITM Research Park',
+    date: 'September 2021',
+    credential: 'https://www.guvi.in/verify-certificate?id=XH1396zR414707FBjb',
+  },
+  {
+    title: 'Python',
+    issuer: 'GUVI Geek Networks, IITM Research Park',
+    date: 'August 2023',
+    credential: 'https://www.guvi.in/verify-certificate?id=618M48Hp6G19l9r1t6',
+  },
+  {
+    title: 'JAVA',
+    issuer: 'Sololearn',
+    date: 'September 2019',
+    credential: 'https://www.sololearn.com/certificates/CT-2IG7OBKS',
+  },
+  {
+    title: 'Kotlin',
+    issuer: 'Sololearn',
+    date: 'March 2023',
+    credential: 'https://www.sololearn.com/certificates/CT-FAEAFYHZ',
+  },
+  {
+    title: 'HTML',
+    issuer: 'Sololearn',
+    date: 'January 2021',
+    credential: 'https://www.sololearn.com/certificates/CT-I3KIIGZP',
+  },
 ];
 
 const Certifications = () => {

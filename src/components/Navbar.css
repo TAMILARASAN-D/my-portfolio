@@ -1,0 +1,93 @@
+/* src/components/Navbar.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2c3e50; /* Dark blue background */
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .navbar-logo .logo {
+    color: #ecf0f1; /* Light color for logo */
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .navbar-links li a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-links li a:hover,
+  .navbar-links li a.active {
+    color: #3498db; /* Highlight color on hover and active */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+    }
+  
+    .navbar-links {
+      flex-direction: column;
+      gap: 1rem;
+    }
+  }
+  /* src/components/Navbar.css */
+
+/* Existing styles */
+
+/* Add a hamburger menu for smaller screens (optional) */
+@media (max-width: 768px) {
+    .navbar-links {
+      flex-direction: column;
+      width: 100%;
+      display: none; /* Hide links by default */
+    }
+  
+    .navbar-links.active {
+      display: flex;
+    }
+  
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    /* Add a hamburger icon */
+    .navbar-toggle {
+      display: block;
+      cursor: pointer;
+      color: #ecf0f1;
+      font-size: 1.5rem;
+    }
+  }
+  
+  /* Hide hamburger icon on larger screens */
+  .navbar-toggle {
+    display: none;
+  }
+  .navbar-toggle { display: none; }
+
+  @media (max-width: 768px) { .navbar-toggle { display: block; position: absolute; top: 1rem; right: 2rem; }
+  
+  .navbar-links { flex-direction: column; width: 100%; background-color: #2c3e50; position: absolute; top: 60px; left: 0; padding: 1rem 0; display: none; }
+  
+  .navbar-links.active { display: flex; }
+  
+  .navbar-links li { text-align: center; margin: 1rem 0; } }  
+  

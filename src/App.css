@@ -1,38 +1,118 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Profile Section */
+.profile-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile Photo Styling */
+.profile-photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 8px solid #4CAF50; /* Adjust border size for better emphasis */
+  object-fit: cover; /* Ensures the image stays within the circular shape */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Adds a soft shadow for a 3D effect */
+  background: linear-gradient(145deg, #e0e0e0, #f0f0f0); /* Subtle background gradient for depth */
+  margin-bottom: 20px;
+  transition: transform 0.4s ease, box-shadow 0.4s ease; /* Smooth hover transition */
+}
+
+/* Profile Photo Hover Effect */
+.profile-photo:hover {
+  transform: scale(1.1); /* Slight enlargement on hover */
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+}
+
+
+.profile-name {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.profile-intro {
+  font-size: 1.2rem;
+  color: #666;
+  margin-top: 10px;
+  line-height: 1.6;
+}
+
+/* NavBar Styling */
+nav {
+  background-color: #4CAF50;
+  padding: 15px;
+}
+
+nav a {
   color: white;
+  margin: 0 15px;
+  font-size: 1.2rem;
+  text-decoration: none;
 }
 
-.App-link {
-  color: #61dafb;
+nav a:hover {
+  text-decoration: underline;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Footer Styling */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+.profile-photo {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 5px solid #4CAF50;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+}
+
+.profile-photo:hover {
+  transform: scale(1.1);
+}
+
+.profile-container {
+  background: linear-gradient(145deg, #f0f0f0, #f9f9f9);
+}
+
+.profile-name {
+  color: #4CAF50;
+}
+
+.profile-intro {
+  color: #777;
+}
+@media (max-width: 768px) {
+  /* Footer Styling */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.9rem;
+}
 }

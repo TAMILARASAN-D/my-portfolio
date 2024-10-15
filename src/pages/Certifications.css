@@ -1,0 +1,49 @@
+/* src/pages/Certifications.css */
+
+.certifications-section {
+    background-color: #f9f9f9;
+  }
+  
+  .certifications-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+  }
+  
+  .certification-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .certification-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .certification-card h3 {
+    margin: 0;
+    color: #2c3e50;
+  }
+  
+  .certification-card h4 {
+    margin: 0.5rem 0;
+    color: #34495e;
+  }
+  
+  .date {
+    font-size: 0.9rem;
+    color: #7f8c8d;
+  }
+  
+  .credential-link {
+    display: inline-block;
+    margin-top: 0.5rem;
+    color: #3498db;
+    font-weight: bold;
+  }
+  

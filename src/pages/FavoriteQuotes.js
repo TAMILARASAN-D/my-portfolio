@@ -24,12 +24,12 @@ const FavoriteQuotes = () => {
       
       {/* Image-based Quotes */}
       <div className="image-quotes">
-      <img src={apjquoteImage1} alt="Quote 1" className="quote-image"/>
-      <img src={quoteImage1} alt="Quote 1" className="quote-image"/>
+      <img src={apjquoteImage1} alt="apjquoteImage 1" className="quote-image"/>
+      <img src={quoteImage1} alt="A quote of reality" className="quote-image"/>
         <img src={quoteImage2} alt="Quote in Tamil" className="quote-image"/>
-        <img src={quoteImage3} alt="Quote 2" className="quote-image"/>
-        <img src={quoteImage4} alt="Quote 3" className="quote-image"/>
-        <img src={quoteImage5} alt="Quote 4" className="quote-image"/>
+        <img src={quoteImage3} alt="Quote of Coders" className="quote-image"/>
+        <img src={quoteImage4} alt="Quote of Mariselvaraj" className="quote-image"/>
+        <img src={quoteImage5} alt="Quote of understanding" className="quote-image"/>
       </div>
     </section>
   );

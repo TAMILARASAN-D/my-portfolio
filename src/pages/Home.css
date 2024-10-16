@@ -66,6 +66,14 @@
   
   /* Responsive Design */
   @media (max-width: 768px) {
+    .home-section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0.2rem 1rem;
+      height: 100%;
+      background-color: #ffffff;
+    }
     .intro-container {
       flex-direction: column;
       text-align: center;

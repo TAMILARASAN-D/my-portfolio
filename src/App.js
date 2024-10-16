@@ -11,6 +11,7 @@ import Contact from './pages/Contact';
 import Footer from './components/Footer'; 
 import './App.css'; // Global styles
 import Publications from './pages/Publications';
+import FavoriteQuotes from './pages/FavoriteQuotes'; 
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/experience" element={<Experience />} />
           <Route path="/certifications" element={<Certifications />} />
           <Route path="/publications" element={<Publications />} />
+          <Route path="/favorite-quotes" element={<FavoriteQuotes/>} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer></Footer>

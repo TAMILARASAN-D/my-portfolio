@@ -63,6 +63,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 100%;
+  min-width: 100vh;
   min-height: 100vh; /* Ensure the body takes at least the full height of the viewport */
   margin: 0;
 }

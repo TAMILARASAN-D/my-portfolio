@@ -10,6 +10,7 @@ import Certifications from './pages/Certifications';
 import Contact from './pages/Contact';
 import Footer from './components/Footer'; 
 import './App.css'; // Global styles
+import Publications from './pages/Publications';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/experience" element={<Experience />} />
           <Route path="/certifications" element={<Certifications />} />
+          <Route path="/publications" element={<Publications />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer></Footer>

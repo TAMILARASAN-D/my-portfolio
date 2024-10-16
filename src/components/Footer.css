@@ -1,6 +1,7 @@
 /* src/components/Footer.css */
 html, body {
     height: 100%; /* Set full height for html and body */
+    width: 100%;
     margin: 0; /* Remove default margin */
   }
   

@@ -14,7 +14,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-        <NavLink to="/my-portfolio" className="logo">Tamil's</NavLink>
+        <NavLink to="/my-portfolio" className="logo">Tamil's Portfolio</NavLink>
       </div>
       <div className="navbar-toggle" onClick={toggleMenu}>
         {isOpen ? <FaTimes /> : <FaBars />}
@@ -50,6 +50,14 @@ const Navbar = () => {
             className={({ isActive }) => (isActive ? 'active' : '')} 
             onClick={() => setIsOpen(false)}>
             Experience
+          </NavLink>
+        </li>
+        <li>
+          <NavLink 
+            to="/publications" 
+            className={({ isActive }) => (isActive ? 'active' : '')} 
+            onClick={() => setIsOpen(false)}>
+            Publications
           </NavLink>
         </li>{/*
         <li>

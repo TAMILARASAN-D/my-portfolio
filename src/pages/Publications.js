@@ -43,6 +43,7 @@ const Publications = () => {
 
   return (
     <section className="publications-section">
+        <h2>Paper Publications</h2>
       <div className="publications-container">
         {papers.map((paper, index) => (
           <div key={index} className="publication-card">

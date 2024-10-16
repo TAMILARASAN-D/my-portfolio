@@ -1,7 +1,6 @@
 /* src/components/Footer.css */
 html, body {
     height: 100%; /* Set full height for html and body */
-    width: 100%;
     margin: 0; /* Remove default margin */
   }
   
@@ -23,6 +22,7 @@ html, body {
     display: flex;
     justify-content: space-between; /* Space between items */
     align-items: center; /* Center items vertically */
+    min-height: 10vh;
   }
   
   .footer-content {

@@ -1,7 +1,8 @@
 .publications-section {
     background-color: #f9f9f9;
     padding: 2%;
-    width: 100%;
+    overflow: scroll;
+    scroll-behavior:smooth;
     height: 100%;
   }
   

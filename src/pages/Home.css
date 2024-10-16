@@ -2,7 +2,6 @@
 
 .home-section {
     display: flex;
-    width: auto;
     justify-content: center;
     align-items: center;
     padding: 4rem 2rem;
@@ -45,7 +44,6 @@
   .cta-button:hover {
     background-color: #a8a9fa;
     color: black;
-    transition: transform 0.3s ease;
   }
   
   .intro-image {

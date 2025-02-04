@@ -24,7 +24,7 @@ const Footer = () => {
 
         <div className="footer-credits">
         <p>Designed and developed by Tamilarasan Dhayalan</p>
-        <p>&copy; 2024 Tamilarasan D. All rights reserved.</p>
+        <p>&copy; 2025 Tamilarasan D. All rights reserved.</p>
         </div>
       </div>
     </footer>

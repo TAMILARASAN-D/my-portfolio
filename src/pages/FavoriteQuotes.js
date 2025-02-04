@@ -6,6 +6,7 @@ import quoteImage2 from '../assets/quotetamil1.jpg';
 import quoteImage3 from '../assets/quote2.jpg'; 
 import quoteImage4 from '../assets/quote3.jpg'; 
 import quoteImage5 from '../assets/quote4.jpg'; 
+import quoteImage6 from '../assets/quote5.jpg';
 
 const FavoriteQuotes = () => {
   return (
@@ -24,8 +25,9 @@ const FavoriteQuotes = () => {
       
       {/* Image-based Quotes */}
       <div className="image-quotes">
-      <img src={apjquoteImage1} alt="apjquoteImage 1" className="quote-image"/>
       <img src={quoteImage1} alt="A quote of reality" className="quote-image"/>
+      <img src={quoteImage6} alt="A quote of reality" className="quote-image"/>
+      <img src={apjquoteImage1} alt="apjquoteImage 1" className="quote-image"/>
         <img src={quoteImage2} alt="Quote in Tamil" className="quote-image"/>
         <img src={quoteImage3} alt="Quote of Coders" className="quote-image"/>
         <img src={quoteImage4} alt="Quote of Mariselvaraj" className="quote-image"/>

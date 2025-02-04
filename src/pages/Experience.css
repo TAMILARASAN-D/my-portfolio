@@ -1,8 +1,8 @@
 /* src/pages/Experience.css */
 
 .experience-section {
-    background-color: #ffffff;
-    padding: 2%;
+  background: linear-gradient(to bottom right, #f0f8ff, #e6e6fa);
+  padding: 2%;
     overflow: scroll;
     scroll-behavior:smooth;
     height: 100%;
@@ -17,9 +17,9 @@
   }
   
   .experience-card {
-    background-color: #f0f3f5;
+    background-color: #f0e3e3;
     padding: 1.5rem;
-    border-left: 5px solid #3498db;
+    border-left: 5px solid #763c3c;
     border-radius: 5px;
   }
   
@@ -35,7 +35,7 @@
   
   .duration {
     font-size: 0.9rem;
-    color: #7f8c8d;
+    color: #4f5d5e;
   }
   
   .experience-card ul {

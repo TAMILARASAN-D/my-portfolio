@@ -4,6 +4,12 @@ import './Certifications.css'; // Create this CSS file for styling
 
 const certifications = [
   {
+    title: 'UGC NET Certificate of Eligibility for Assistant Professor',
+    issuer: 'National Testing Agency (NTA) on behalf of University Grants Commission (UGC)',
+    date: 'December 2024',
+    credential: 'https://drive.google.com/file/d/1Sq1QS0eVkE723w4C31T-RPJqcHgXGOjx/view?usp=sharing',
+  },
+  {
     title: 'Build a Face Recognition Application using Python',
     issuer: 'GUVI Geek Networks, IITM Research Park',
     date: 'April 2021',

@@ -12,7 +12,7 @@ const Home = () => {
         <div className="intro-text">
           <h1>Hi, I'm TAMILARASAN D</h1>
           <p>
-            I'm a full-stack developer with a passion for building scalable web applications and working across the full stack.
+          Full-Stack Developer and Technical Trainer with expertise in modern web technologies, programming, and problem-solving. UGC NET qualified, with a strong foundation in software development and knowledge dissemination.
           </p>
           <Link to="/projects" className="cta-button">View My Work</Link>
         </div>

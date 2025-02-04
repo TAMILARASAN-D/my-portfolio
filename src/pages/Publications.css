@@ -1,6 +1,6 @@
 .publications-section {
-    background-color: #f9f9f9;
-    padding: 2%;
+  background: linear-gradient(to bottom right, #f0f8ff, #e6e6fa);
+  padding: 2%;
     padding-bottom: 30px;
     overflow: scroll;
     scroll-behavior:smooth;
@@ -15,7 +15,7 @@
   }
   
   .publication-card {
-    background-color: #ffffff;
+    background-color: #f0e3e3;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     width: 300px;
@@ -37,26 +37,26 @@
   
   .publication-authors {
     font-size: 1rem;
-    color: #7f8c8d;
+    color: #5b6465;
     margin-bottom: 0.5rem;
   }
   
   .publication-journal {
     font-size: 0.9rem;
-    color: #95a5a6;
+    color: #556364;
     margin-bottom: 0.5rem;
   }
   
   .publication-year {
     font-size: 0.9rem;
-    color: #95a5a6;
+    color: #566263;
     margin-bottom: 1rem;
   }
   
   .publication-link {
     display: inline-block;
     margin-top: 0.5rem;
-    color: #3498db;
+    color: #732f2f;
     font-weight: bold;
     text-decoration: none;
   }

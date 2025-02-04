@@ -4,12 +4,22 @@ import './Experience.css'; // Create this CSS file for styling
 
 const experiences = [
   {
+    role: 'Freelancer',
+    //company: 'Freelance',
+    duration: 'September 2024 - Present',
+    responsibilities: [
+      
+      'Developed and launched personal portfolio websites.',
+      'Experienced in transcribing audio files, including projects used to train AI models.',
+    ],
+  },
+  {
     role: 'Assistant Professor, Department of Computer Applications',
     company: 'Sri Venkateswara College of Engineering and Technology, Chittoor, Andhra Pradesh',
     duration: 'August 2023 - August 2024',
     responsibilities: [
       
-      'Taught programming and software development subjects, including C, Machine Learning, Web Development, Android App Development, and Data Structures.',
+      'Taught programming and software development subjects, including C, Python, Data Structures, Machine Learning, Full Stack Web Development, and Android App Development.',
       'Mentored students in hands-on coding projects, fostering a deep understanding of software development, debugging, and optimization.',
       'Guided students in building full-stack web applications and Android apps, aligning with industry best practices.',
       'Integrated modern development tools and frameworks into teaching to ensure students were equipped with practical, job-ready skills.',

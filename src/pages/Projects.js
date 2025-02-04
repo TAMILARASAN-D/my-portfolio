@@ -5,7 +5,7 @@ import './Projects.css'; // Create this CSS file for styling
 const projectsData = [
   {
     title: 'College Hostel Inventory Management System',
-    description: 'Hostel Inventory Management System is a web and Android app that revolutionizes hostel inventory management.​',
+    description: 'Hostel Inventory Management System is a web and Android app that revolutionizes hostel inventory management. Aim to maximize efficiency, eliminate errors, and enable data-driven decisions. Real-time data access empowers administrators to reduce wastage and maintain optimal stock levels.​​​',
     techStack: ['PHP','HTML','CSS','JavaScript','AJAX','MySQL','Java','jQuery','Android','Volley Library'],
     image: './assets/project1.png', 
     link:'https://github.com/TAMILARASAN-D/College-Hostel-Inventory-Management-System',
@@ -26,6 +26,22 @@ const projectsData = [
     image: './assets/project1.png',
     link:'https://github.com/TAMILARASAN-D/e-Shopping-Cart',
     demo: 'https://tamilarasan-d.github.io/e-Shopping-Cart/',
+  },
+  {
+    title: 'Django-CRM',
+    description: 'Developed a Customer Relationship Management - CRM App with this we\'ll be able to Register, Log In, Log Out, Add Records, View Records, Update Records, and Delete Records.',
+    techStack: ['Django','Python','MySQL'],
+    image: './assets/project1.png',
+    link:'https://github.com/TAMILARASAN-D/Django-CRM',
+    demo: 'https://github.com/TAMILARASAN-D/Django-CRM/blob/main/README.md',
+  },
+  {
+    title: 'Authentication signup and login page using session',
+    description: 'Authentication of user done using session and sign up and login page created using HTML,CSS,NODE.JS,MySQL.',
+    techStack: ['Node.js','MySQL','HTML','CSS'],
+    image: './assets/project1.png',
+    link:'https://github.com/TAMILARASAN-D/Authentication-signup-and-login-using-session',
+    demo: 'https://github.com/TAMILARASAN-D/Authentication-signup-and-login-using-session/blob/main/Screenshot_20230225_113930.png',
   },
 ];
 

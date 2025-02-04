@@ -1,8 +1,8 @@
 /* src/pages/Certifications.css */
 
 .certifications-section {
-    background-color: #f9f9f9;
-    padding: 2%;
+  background: linear-gradient(to bottom right, #f0f8ff, #e6e6fa);
+  padding: 2%;
     overflow: scroll;
     scroll-behavior:smooth;
     height: 100%;
@@ -17,7 +17,7 @@
   }
   
   .certification-card {
-    background-color: #ffffff;
+    background-color: #f0e3e3;
     border-radius: 10px;
     padding: 1.5rem;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -32,7 +32,7 @@
   
   .certification-card h3 {
     margin: 0;
-    color: #2c3e50;
+    color: black;
   }
   
   .certification-card h4 {
@@ -42,13 +42,13 @@
   
   .date {
     font-size: 0.9rem;
-    color: #7f8c8d;
+    color: #596d6e;
   }
   
   .credential-link {
     display: inline-block;
     margin-top: 0.5rem;
-    color: #3498db;
+    color: #732f2f;
     font-weight: bold;
   }
   

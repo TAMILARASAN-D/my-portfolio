@@ -1,8 +1,8 @@
 /* src/pages/Skills.css */
 
 .skills-section {
-    background-color: #ffffff;
-    padding: 2%;
+  background: linear-gradient(to bottom right, #f0f8ff, #e6e6fa);
+  padding: 2%;
     overflow: scroll;
     scroll-behavior:smooth;
     height: 100%;
@@ -21,7 +21,7 @@
   }
   
   .skill-category h3 {
-    color: #3498db;
+    color: #771e1e;
     margin-bottom: 1rem;
   }
   
@@ -31,14 +31,15 @@
   }
   
   .skill-category ul li {
-    background-color: #ecf0f1;
+    background-color: #cacadd;
     margin-bottom: 0.5rem;
     padding: 0.75rem;
     border-radius: 5px;
+    font-weight: bold;
     transition: background-color 0.3s ease;
   }
   
   .skill-category ul li:hover {
-    background-color: #bdc3c7;
+    background-color: #dcdcee;
   }
   

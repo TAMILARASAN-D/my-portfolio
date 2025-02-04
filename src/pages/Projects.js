@@ -14,7 +14,7 @@ const projectsData = [
   {
     title: 'My Portfolio',
     description: 'Designed, developed and hosted my portfolio website to showcase my skills.',
-    techStack: ['React.js','HTML','CSS'],
+    techStack: ['React.js','HTML','CSS','JavaScript'],
     image: './assets/project1.png',
     link:'https://github.com/TAMILARASAN-D/my-portfolio',
     demo: 'https://tamilarasan-d.github.io/my-portfolio/',

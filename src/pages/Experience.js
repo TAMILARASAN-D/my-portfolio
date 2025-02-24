@@ -4,13 +4,15 @@ import './Experience.css'; // Create this CSS file for styling
 
 const experiences = [
   {
-    role: 'Freelancer',
+    role: 'Freelance Software Developer and Transcriber',
     //company: 'Freelance',
     duration: 'September 2024 - Present',
     responsibilities: [
       
-      'Developed and launched personal portfolio websites.',
-      'Experienced in transcribing audio files, including projects used to train AI models.',
+      'Designed, developed, and deployed responsive portfolio websites using HTML, CSS, JavaScript, React, and modern UI frameworks, ensuring cross-device compatibility and optimal performance.',
+      'Implemented interactive features and optimized UI/UX, improving site engagement and accessibility.',
+      'Worked on full-stack projects, handling front-end and back-end development, integrating APIs, and deploying applications.',
+      'Performed audio recording, transcription of audio files, and quality checks, ensuring high accuracy in AI training datasets.',
     ],
   },
   {

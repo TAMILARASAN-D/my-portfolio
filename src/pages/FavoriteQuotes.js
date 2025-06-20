@@ -17,8 +17,11 @@ const FavoriteQuotes = () => {
       
       {/* Text-based Quotes */}
       <div className="text-quotes">
+      <div className="quote-card">
+          <blockquote>"யாதும் ஊரே; யாவரும் கேளிர்; தீதும் நன்றும் பிறர் தர வாரா;" - கணியன் பூங்குன்றனார்</blockquote>
+        </div>
         <div className="quote-card">
-          <blockquote>"“Man needs difficulties in life because they are necessary to enjoy success.” - A.P.J.Abdul Kalam</blockquote>
+          <blockquote>"Man needs difficulties in life because they are necessary to enjoy success." - A.P.J.Abdul Kalam</blockquote>
         </div>
         <div className="quote-card">
           <blockquote>"In the middle of difficulty lies opportunity." - Albert Einstein</blockquote>

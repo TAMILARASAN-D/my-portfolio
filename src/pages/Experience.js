@@ -4,9 +4,21 @@ import './Experience.css'; // Create this CSS file for styling
 
 const experiences = [
   {
+    role: 'Computer Science Mentor',
+    company: 'FACE Prep',
+    duration: 'May 2025 - Present',
+    responsibilities: [
+      
+      'Mentoring and guiding students to cultivate foundational problem-solving and logical thinking skills, essential for entry into the tech industry.',
+      'Facilitating sessions focused on developing analytical approaches to challenges, breaking down complex scenarios, and structured solution design.',
+      'Providing constructive feedback on student thought processes and initial solution attempts, fostering a resilient and iterative problem-solving mindset.',
+      'Laying the groundwork for future advanced topics by strengthening core logical abilities and computational thinking among aspiring tech professionals.',
+    ],
+  },
+  {
     role: 'Freelance Software Developer and Transcriber',
     //company: 'Freelance',
-    duration: 'September 2024 - Present',
+    duration: 'September 2024 - April 2025',
     responsibilities: [
       
       'Designed, developed, and deployed responsive portfolio websites using HTML, CSS, JavaScript, React, and modern UI frameworks, ensuring cross-device compatibility and optimal performance.',

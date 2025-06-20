@@ -1,5 +1,6 @@
 import React from 'react';
 import './FavoriteQuotes.css'; 
+import tamilImage1 from '../assets/quotespurananooru.png';
 import apjquoteImage1 from '../assets/apjquote1.jpg';
 import quoteImage1 from '../assets/quote1.jpg';
 import quoteImage2 from '../assets/quotetamil1.jpg'; 
@@ -7,6 +8,7 @@ import quoteImage3 from '../assets/quote2.jpg';
 import quoteImage4 from '../assets/quote3.jpg'; 
 import quoteImage5 from '../assets/quote4.jpg'; 
 import quoteImage6 from '../assets/quote5.jpg';
+
 
 const FavoriteQuotes = () => {
   return (
@@ -25,7 +27,7 @@ const FavoriteQuotes = () => {
       
       {/* Image-based Quotes */}
       <div className="image-quotes">
-      <img src={quoteImage1} alt="A quote of reality" className="quote-image"/>
+      <img src={tamilImage1} alt="தீதும் நன்றும் பிறர் தர வாரா கவிதை" className="quote-image"/>
       <img src={quoteImage6} alt="A quote of reality" className="quote-image"/>
       <img src={apjquoteImage1} alt="apjquoteImage 1" className="quote-image"/>
         <img src={quoteImage2} alt="Quote in Tamil" className="quote-image"/>

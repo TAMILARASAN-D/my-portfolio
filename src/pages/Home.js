@@ -17,7 +17,7 @@ const Home = () => {
           <Link to="/projects" className="cta-button">View My Work</Link>
         </div>
         <div className="quote-section">
-          <blockquote className="quote-text">"Efforts never fail"</blockquote>
+          <blockquote className="quote-text">"முயற்சி திருவினை ஆக்கும்"<br></br>"Efforts never fail"</blockquote>
           <Link to="/favorite-quotes" className="quotes-link">Check out Favorite Quotes of Mine <FaExternalLinkAlt /></Link>
         </div>
         <div className="intro-image">

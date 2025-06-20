@@ -18,6 +18,10 @@ const FavoriteQuotes = () => {
       {/* Text-based Quotes */}
       <div className="text-quotes">
       <div className="quote-card">
+          <blockquote>"முயற்சி திருவினை ஆக்கும் முயற்றின்மை <br></br>
+                       இன்மை புகுத்தி விடும்." - திருவள்ளுவர்</blockquote>
+        </div>
+      <div className="quote-card">
           <blockquote>"யாதும் ஊரே; யாவரும் கேளிர்; தீதும் நன்றும் பிறர் தர வாரா;" - கணியன் பூங்குன்றனார்</blockquote>
         </div>
         <div className="quote-card">
